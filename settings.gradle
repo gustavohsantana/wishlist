@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        maven { url 'https://repo.cucumber.io/repository/maven-releases/' }
+    }
+}
+
+rootProject.name = 'wishlist'
